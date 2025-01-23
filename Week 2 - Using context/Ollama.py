@@ -6,7 +6,7 @@ import json                               # For context demonstration. This isn'
 import ollama
 MODEL = "llama3.2"                        # The model we'll be using.
 
-from simplify import clear                # Not important either. This just clears the terminal.
+from simplify import clear                # Not important. This just clears the terminal.
 
 #--------------------------------------------------------------------------------------------------------------
 #?    Just the text. You won't see anything happen until all text has been generated.
@@ -21,7 +21,7 @@ print(prompt)
 print("--------------------------------------------------------------------------------------------------------")
 
 output = ollama.generate(MODEL, prompt)
-this_context = output.context                                         #* This is where you grab its memory
+this_context = output.context                                   #* This is where you grab its memory
 print(output.response)
 
 input("--------------------------------------------------------------------------------------------------------")
