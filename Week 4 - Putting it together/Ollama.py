@@ -6,7 +6,7 @@ import json                             # For context demonstration. This isn't 
 import ollama
 MODEL = "llama3.2:3B"                   # The model we'll be using.
 
-from simplify import clear, wait       # Not important either. This just clears the terminal.
+from simplify import clear, wait        # Not important either. This just clears the terminal.
 
 #---------------------------------------------------------------------------------------------------------------
 #?    A working chatbot!

@@ -1,0 +1,18 @@
+{
+    "sourceFile": "Week 1 - Text input and output/context.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1738188942510,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1738188942510,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}

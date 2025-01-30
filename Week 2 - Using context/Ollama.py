@@ -41,11 +41,11 @@ input("-------------------------------------------------------------------------
 clear()
 
 #--------------------------------------------------------------------------------------------------------------
-#?    A review of what the looks like
+#?    A review of what the context looks like
 #--------------------------------------------------------------------------------------------------------------
 
 input("Press any key to save the context from earlier saved to context.json ")
-with open('Week 2 - Demonstration/context.json', 'w') as f:
+with open('Week 2 - Using context/context.json', 'w') as f:
     json.dump(this_context, f)
 
 #--------------------------------------------------------------------------------------------------------------
