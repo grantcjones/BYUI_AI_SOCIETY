@@ -1,7 +1,7 @@
 # BYUI_AI_SOCIETY
 Repository for the BYUI AI Society
 
-Install instructions for spacy
+Install instructions for spaCy
 (using the terminal)
 
 -pip install uv  
